@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 12px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 15px;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 1px black;
+  color: white;
+  background: #525252;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+p {
+  text-align: center;
+}
+
+.wrapper {
+  margin: 0 10%;
+}
+
+.postBox {
+  max-width: 50%;
+  margin: 5% 25%;
+  background: rgba(100, 100, 100, 0.5);
+  padding: 15px;
+  border: 1px solid black;
+  color: white;
+}
+.postBox h3 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.Form {
+  margin-bottom: 50px;
+}
+.Form label {
+  display: block;
+  font-size: 24px;
+  width: 100%;
+}
+.Form input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.Form textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+}
+.Form .submitbtn {
+  width: 50%;
+  margin: 0 25%;
+  height: 35px;
+  border-radius: 5px;
+  background: #525252;
+  border: none;
+  font-size: 24px;
+  color: white;
+  box-shadow: 1px 1px 5px black;
+  cursor: pointer;
+}
+.Form .submitbtn:hover {
+  transition: 1s;
+  color: #428eff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  p {
+    font-size: 24px;
+  }
+
+  .wrapper {
+    margin: 0;
+  }
+
+  .Form label {
+    display: block;
+    font-size: 36px;
+    width: 100%;
+  }
+  .Form input {
+    display: block;
+    max-width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 24px;
+  }
+  .Form textarea {
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  .Form .submitbtn {
+    height: 35px;
+    border-radius: 0;
+    background: #525252;
+    border: none;
+    font-size: 24px;
+    color: white;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+  }
+
+  .postBox {
+    max-width: 100%;
+    margin: 5vh 0;
+  }
+  .postBox h3 {
+    font-size: 32px;
+  }
+  .postBox p {
+    font-size: 36px;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
